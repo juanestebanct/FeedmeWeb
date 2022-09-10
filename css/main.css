@@ -34,11 +34,16 @@ background: gray;
   
 }
 #Word{
-	background: gray;
+	background: white;
 	height:200px;
 	width: 100%;
 	display: relative; 
 	justify-content: flex-start; 
+	margin-bottom: 20px;
+}
+.restaurante{
+	display: relative;
+justify-content: flex-start; 
 }
 .row1{
      left: 10px;
@@ -55,6 +60,7 @@ background: gray;
 	padding: 10px;
 	font-weight: 700;
 	color: rgb(43, 43, 43);
+	margin-bottom: 20px;
 
 }
 .container {
@@ -222,6 +228,7 @@ z-index: 2;
 }
 .restaurante{
 	padding: 20px;
+	margin-bottom: 20px;
 }
 .text1{
 	font-size: xx-large; 
@@ -238,9 +245,69 @@ z-index: 2;
 }
 .text3{
 	font-size: large; 
-	padding: 10px; 
+	padding: 40px; 
 	color: rgb(43, 43, 43);
 	text-align: center;
-	 width: 80%;
-	  margin-top:20px ;
+	width: 80%;
+    margin-top:20px ;
+    margin-left:100px ;
+    position: absolute;
+}
+.text4{
+	font-size: large; 
+	padding: 10px; 
+	text-align: center;
+	width: 80%;
+    margin-top:5px ;
+    margin-bottom:5px ;
+    right:40px;
+    position: absolute;
+}
+.text5{
+	font-size: large; 
+	padding: 40px; 
+	color: rgb(43, 43, 43);
+	text-align: center;
+	width: 80%;
+    margin-top:20px ;
+    left: 60px;
+    margin-left:100px ;
+    position: absolute;
+}
+#Domicilio{
+	background: gray;
+	margin-top: 10px;
+	height: 45%;
+	width: 100%; 
+	position: relative;
+
+}
+.r1{
+    text-align: center; 
+	width: 500px; 
+	height: 400px; 
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	border-top-left-radius: 20px; 
+	border-bottom-left-radius: 20px; 
+	background-color: #3781DE; 
+	color: white; 
+	font-weight: 700; 
+	cursor: pointer;
+	text-decoration: none;
+}
+.r2{
+text-align: center;
+	width: 500px; 
+	height: 400px;  
+	  display: flex; 
+	  justify-content: center; 
+	  align-items: center; 
+	  border-top-right-radius: 20px; 
+	  border-bottom-right-radius: 20px; 
+	  color: black;  font-weight: 700; 
+	  cursor: pointer;  
+	  background-color: #DADADA;
+	  text-decoration: none;
 }
