@@ -311,3 +311,8 @@ text-align: center;
 	  background-color: #DADADA;
 	  text-decoration: none;
 }
+.cerrar{
+		right: 10px;
+
+	position: absolute;
+}
