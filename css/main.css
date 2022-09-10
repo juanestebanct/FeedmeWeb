@@ -1,11 +1,246 @@
 header {
 	background: gray;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	
 }
 
 body {
 	background: white;
+
+
+}
+#reton{
+
+background: gray;
+	height: 60px;
+	width: 100%; 
+	position: relative;
+
+}
+ .b1 {
+	top: 12px;
+
+   position: absolute;
+
+	
+}
+.b2 {
+	
+	right: 10px;
+
+	position: absolute;
+  
+}
+#Word{
+	background: gray;
+	height:200px;
+	width: 100%;
+	display: relative; 
+	justify-content: flex-start; 
+}
+.row1{
+     left: 10px;
+	 position: absolute;
+	 margin-top:10px ;
+
+}
+.title1{
+	
+	left: 50%;
+	justify-content: center; 
+	position: absolute;
+	font-size: xx-large; 
+	padding: 10px;
+	font-weight: 700;
+	color: rgb(43, 43, 43);
+
 }
 .container {
- 
- position: center ;
+	height:100%;
+    width: 100%;
+	display: flex; 
+	justify-content: center; 
+	position: relative;
+
+}
+#logo{
+	width: 100%;
+	display: flex; 
+	justify-content: center; 
+	position: relative;
+}
+.textContent {
+font-size: 40px; 
+width: 40%; 
+text-align: center; 
+color: rgb(100, 99, 99);
+}
+@media screen and (max-width: 500px) {
+.logoImg {
+width: 40vh !important;
+height: 35vh !important;
+}
+.textContent {
+width: 80%;
+}
+#circle {				
+height: 85% !important;
+width: 30vh !important;
+}
+}
+#circle {
+background: rgba(55, 129, 222, 0.2);
+border-radius: 50%;
+width: 40vh;
+height: 100%;
+position: absolute;
+top: 40px;
+z-index: 1;
+}
+.logoImg {
+width: 60vh; 
+height: 40vh; 
+z-index: 2;
+}
+.Slogan{
+	width: 100%; 
+	display: flex; 
+	justify-content: center;
+}				
+.Butto {
+	text-align: center; 
+	width: 200px; 
+	height: 70px; 
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	border-top-left-radius: 20px; 
+	border-bottom-left-radius: 20px; 
+	background-color: #3781DE; 
+	color: white; 
+	font-weight: 700; 
+	cursor: pointer;
+	text-decoration: none;
+}
+.Butto1{
+	text-align: center;
+	 width: 200px;
+	  height: 70px; 
+	  display: flex; 
+	  justify-content: center; 
+	  align-items: center; 
+	  border-top-right-radius: 20px; 
+	  border-bottom-right-radius: 20px; 
+	  color: black;  font-weight: 700; 
+	  cursor: pointer;  
+	  background-color: #DADADA;
+	  text-decoration: none;
+}
+.bt2{
+	text-align: center; 
+	width: 200px; 
+	height: 70px; 
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	border-top-right-radius: 20px; 
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px; 
+	border-bottom-left-radius: 20px;  
+	color: black;  font-weight: 700;
+	cursor: pointer;  
+	background-color: #DADADA;
+	text-decoration: none
+}
+.login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.6);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.2);
+  border-radius: 10px;
+}
+
+.login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.login-box .user-box label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+.login-box form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #03e9f4;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  margin-top: 1px;
+  letter-spacing: 4px
+}
+.TomHamburger{
+	width: 100%; display: flex;
+}
+.img1{
+	margin: 0px auto;
+	width: 60%; 
+	height: 50vh; 
+	border-radius: 20px;
+}
+.restaurante{
+	padding: 20px;
+}
+.text1{
+	font-size: xx-large; 
+	padding: 10px;
+	font-weight: 700;
+	 color: rgb(43, 43, 43);
+}
+.text2{
+	font-size: large; 
+	padding: 10px; 
+	color: rgb(187, 187, 187); 
+	text-align: left;
+	 width: 80%;
+}
+.text3{
+	font-size: large; 
+	padding: 10px; 
+	color: rgb(43, 43, 43);
+	text-align: center;
+	 width: 80%;
+	  margin-top:20px ;
 }
