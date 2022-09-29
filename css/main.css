@@ -20,16 +20,16 @@ background: gray;
 
 }
  .b1 {
-	top: 12px;
+	margin-top: 12px;
+    margin-left: 10px;
+    display: inline-block;
 
-   position: absolute;
 
 	
 }
 .b2 {
-	
+	margin-top: -8px;
 	right: 10px;
-
 	position: absolute;
   
 }
