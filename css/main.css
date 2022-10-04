@@ -1,37 +1,35 @@
-header {
-	background: gray;
-	height: 100%;
-	width: 100%;
-	position: relative;
-	
-}
 
 body {
 	background: white;
-
-
 }
 #reton{
-
-background: gray;
+  background: gray;
 	height: 60px;
 	width: 100%; 
 	position: relative;
-
+	 display: flex;
+  justify-content: space-between; 
 }
  .b1 {
-	margin-top: 12px;
+	  margin-top: 12px;
     margin-left: 10px;
-    display: inline-block;
-
-
-	
+    display: inline-block;	
 }
 .b2 {
-	margin-top: -30px;
+	margin-top: -5px;
 	right: 10px;
-	position: absolute;
+	position: relative;
   
+}
+.b3 {
+	margin-top: 10px;
+	right: 10px;
+	position: relative;
+  
+}
+.centerLogo{
+	margin-top: -5;
+	position: relative;
 }
 #Word{
 	background: white;
@@ -52,7 +50,6 @@ justify-content: flex-start;
 
 }
 .title1{
-	
 	left: 50%;
 	justify-content: center; 
 	position: absolute;
@@ -95,6 +92,7 @@ width: 80%;
 height: 85% !important;
 width: 30vh !important;
 }
+
 }
 #circle {
 background: rgba(55, 129, 222, 0.2);
