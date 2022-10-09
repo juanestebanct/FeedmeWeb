@@ -3,5 +3,5 @@ window.onload = init;
 
 function init(){
 	// body...
-	alert("hola mundo");
+	alert("Hi World");
 }
