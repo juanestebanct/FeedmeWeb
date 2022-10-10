@@ -426,4 +426,15 @@ text-align: center;
 	justify-content: center;
 }
 
-  
+.corazon {
+	width: 30px;
+	height: 30px;
+	position: relative;
+}
+
+iframe {
+	height: 600px;
+	width: 100%;
+	resize: both;
+	overflow: auto;
+  }
