@@ -33,8 +33,18 @@
 	height: 120%;
 	background-image: url(https://fondosmil.com/fondo/35732.jpg);
 	position: absolute;
+	left: 0;
+  top: 0;
 }
 #Word{
+	margin-top: 20px;
+	height:200px;
+	width: 100%;
+	display: flex;
+  justify-content: space-between; 
+	margin-bottom: 20px;
+}
+#WordRestaurante{
 	margin-top: 20px;
 	height:200px;
 	width: 100%;
@@ -126,7 +136,7 @@ color: rgb(100, 99, 99);
   width: 30%;
   position: absolute;
   right: 0px;
-  top: 100px;
+  top: 300px;
   margin: auto;
     z-index: -1;
 }
@@ -166,7 +176,9 @@ z-index: 2;
 	margin-bottom: 10px;
 	display: flex; 
 	justify-content: center;
-	 text-decoration: none;
+		text-decoration: none;
+
+	
 }				
 .Butto {
 	text-align: center; 
@@ -181,7 +193,7 @@ z-index: 2;
 	color: white; 
 	font-weight: 700; 
 	cursor: pointer;
-	text-decoration: none;
+
 }
 .Butto1{
 	text-align: center;
@@ -196,7 +208,22 @@ z-index: 2;
 	  color: black;  font-weight: 700; 
 	  cursor: pointer;  
 	  background-color: #DADADA;
-	  text-decoration: none;
+	
+}
+.textRestaurante{
+		font-size: large; 
+	padding: 40px; 
+	color: rgb(43, 43, 43);
+	text-align: center;
+	width: 100%;
+
+}
+
+.linea {
+  border-top: 4px solid #E9AC4F;
+  height: 2px;
+  padding: 0;
+  margin: 20px auto 0 auto;
 }
 .bt2{
 	text-align: center; 
@@ -419,11 +446,17 @@ iframe {
 	resize: both;
 	overflow: auto;
   }
- @media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
 .logoImg {
 width: 30vh !important; 
 height: 35vh !important;
 }
+.Slogan{
+	width: 100%; 
+	margin-top: 0px;
+	margin-bottom: 0px;
+	
+}	
 #reton{
 height: 10vh !important;
 
@@ -453,7 +486,7 @@ width: 30vh !important;
 	height: 90%;
 }
 .login-box {
-	top: 56%;
+	top: 60%;
 	width: 50vh;
 }
 #Fondo {
