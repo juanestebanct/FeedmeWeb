@@ -1,4 +1,7 @@
 
+body{
+	margin: 0px;
+}
 #reton{
  background: rgba(239, 180, 82, 1);
 	height: 60px;
@@ -7,6 +10,17 @@
 	display: flex;
   justify-content: space-between; 
 }
+#reton2{
+ background: rgba(239, 180, 82, 1);
+	height: 60px;
+	width: 100%; 
+	left: 0;
+	position: absolute;
+	display: flex;
+  justify-content: space-between; 
+}
+
+
  .b1 {
 	  margin-top: 12px;
     margin-left: 10px;
@@ -43,6 +57,16 @@
   justify-content: space-between; 
 
 }
+#wordmenu{
+margin-top: 30px;
+	height:200px;
+	width: 100%;
+	display: flex;
+  justify-content: space-between; 
+	margin-bottom: 30px;
+	margin: 20px;
+}
+
 #WordRestaurante{
     margin-top: -13px;
     height: 200px;
@@ -79,8 +103,9 @@
 	height: 200px;
 }
 .row1{
-   height: 200px;
-    margin: 0;
+    margin-top: 10px;
+    height: 180px;
+
     border-radius: 20px;
 
 }
@@ -93,6 +118,17 @@
 
 }
 .title1{
+	left: 50%;
+	justify-content: center; 
+	position: absolute;
+	font-size: xx-large; 
+	padding: 10px;
+	font-weight: 700;
+	color: rgb(43, 43, 43);
+	margin-bottom: 20px;
+
+}
+.title2{
 	left: 50%;
 	justify-content: center; 
 	position: absolute;
@@ -141,7 +177,7 @@ color: rgb(100, 99, 99);
   height: 100%;
   width: 40%;
   position: absolute;
-  left: 0px;
+  left: -20px;
   top: 0px;
   margin: auto;
    z-index: -1;; 
@@ -368,6 +404,16 @@ z-index: 2;
   left: 0px;
   position: relative;
 }
+.text6{
+  font-size: large;
+  padding: 40px;
+  color: rgb(43, 43, 43);
+  text-align: left;
+  width: 80%;
+  margin-top: 20px;
+  left: 0px;
+  position: relative;
+}
 #Domicilio{
 	background: rgba(239, 180, 82, 1);
 	height: 1%;
@@ -475,6 +521,11 @@ height: 10vh !important;
 	margin-top: 0px;
 	left: 0;
 }
+.title2{
+
+	font-size: large;
+
+}
 .text5{
 	padding: 30px;
 }
@@ -504,5 +555,25 @@ width: 30vh !important;
 }
 .text5{
 	display: none;
+}
+.text4{
+	font-size: large; 
+	padding: 10px; 
+	text-align: center;
+	width: 80%;
+  margin-top:2% ;
+  margin-bottom:2% ;
+  left: 94px;
+  position: absolute;
+}
+.text6 {
+    font-size: medium;
+    padding: 21px;
+    color: rgb(43, 43, 43);
+    text-align: left;
+    width: 80%;
+    margin-top: 23px;
+    left: -13px;
+    position: relative;
 }
 }
